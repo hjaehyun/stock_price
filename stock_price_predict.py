@@ -85,7 +85,7 @@ def predict_stock_price(stock_code, start_date, end_date, look_back=1, epochs=10
     # 예측 결과 시각화
     plot_predictions(y_test[0], test_predict[:, 0])
 
-# 예시: 삼성전자 (005930.KS)의 주식 가격 예측 실행
+#주식 가격 예측
 stock_list = {'1':'AAPL','2':'NVDA','3':'005930.KS'}
 stock = input('''주식 가격 예측
 1. 애플
